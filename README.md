@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Hatim EL BAKRI</h1>
 <h3 align="center">A passionate fullstack developer from Morocco, currently based in Spain</h3>
+dasd
 
 # 💫 About Me:
 - 🎓 **Recent graduate** in Computer Science from Suptechnology, Casablanca, with dual majors in Internet and Mobile Development from ULCO, France.
