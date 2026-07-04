@@ -1,20 +1,117 @@
-<h1 align="center">Hi 👋, I'm Hatim EL BAKRI</h1>
-<h3 align="center">A passionate fullstack developer from Morocco, currently based in Spain</h3>
-dasd
+# Hatim EL BAKRI 🚀
+### Data Scientist & MLOps Engineer
 
-# 💫 About Me:
-- 🎓 **Recent graduate** in Computer Science from Suptechnology, Casablanca, with dual majors in Internet and Mobile Development from ULCO, France.
-- 🌍 Working to expand my business in web and mobile development nationwide and across Africa.
-- 🎯 Currently seeking opportunities to collaborate on **AI** and **web/mobile applications**, aiming to pursue a Master’s degree in AI in Spain.
-- 🌱 **Learning**: Deepening my skills in the MERN stack, enhancing my Spanish language skills, and diving into AI technologies.
-- 💼 Experienced in **Laravel, React, Spring Boot**, and more, with a background in both **B2B** and **B2C** projects.
-- 🤝 Available for **collaborations** and eager to connect with developers and businesses with similar ambitions.
-
-# 💻 Tech Stack:
-![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Bitwarden](https://img.shields.io/badge/bitwarden-%23175DDC.svg?style=for-the-badge&logo=bitwarden&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Tampermonkey](https://img.shields.io/badge/tampermonkey-%2300485B.svg?style=for-the-badge&logo=tampermonkey&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white) ![PlayStation Network](https://img.shields.io/badge/PSN-%230070D1.svg?style=for-the-badge&logo=Playstation&logoColor=white)
-
+<div align="center">
+  <a href="https://elbakrihatim.com" target="_blank">
+    <img src="https://img.shields.io/badge/Website-elbakrihatim.com-34d399?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://linkedin.com/in/elhatimbakri" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Hatim--El--Bakri-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:work@elbakrihatim.com">
+    <img src="https://img.shields.io/badge/Email-work%40elbakrihatim.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=elhatimbakri&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 💫 About Me
+I build and deploy AI-powered solutions. By combining deep learning architectures, MLOps pipelines, and cybersecurity principles, I bridge the gap between model development and reliable production software.
+
+- 🎓 **Dual Master's Candidate** in Computer Engineering & Cybersecurity at UPNA (Pamplona, Spain) 🇪🇸
+- 🎓 **Bachelor's Graduate** in Web & Mobile Development from Université du Littoral Côte d'Opale (France) 🇫🇷
+- 🟢 **Open to work** for junior/mid Data Science and MLOps positions.
+- ⚡ **Immediate availability** & holder of driving licenses A & B.
+
+---
+
+## 🔬 Featured Projects
+
+### 1. 🛡️ Network Security Anomaly Detection (MLOps Pipeline)
+An end-to-end MLOps pipeline for classifying network traffic anomalies.
+- **Workflow:** Automated ETL, data validation, experiment tracking, batch prediction, and CI/CD artifact deployment.
+- **Stack:** MongoDB Atlas, MLflow, DagsHub, Docker, GitHub Actions, AWS (S3, EC2, ECR).
+
+### 2. 🛰️ EuroSAT Satellite Image Classification (Computer Vision)
+Benchmarking CNN architectures for land-use and land-cover classification using multispectral satellite images.
+- **Methodology:** Custom CNN vs. transfer learning & fine-tuning with ResNet18; evaluated data augmentation and normalization.
+- **Stack:** PyTorch, Torchvision, CNN, ResNet18.
+
+### 3. 🌍 French-English Neural Machine Translation (NLP)
+A comparative study of translation models, from stacked LSTMs to bidirectional GRUs with Bahdanau attention.
+- **Deployment:** Packaged and deployed as a live interactive web app.
+- **Stack:** PyTorch, spaCy, LSTM, Bi-GRU, Bahdanau Attention, Streamlit.
+
+---
+
+## ⚡ Technical Toolkit
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>🧠 ML / Deep Learning</h3>
+      <ul>
+        <li>Python</li>
+        <li>PyTorch, TensorFlow</li>
+        <li>scikit-learn (Clustering, PCA, Anomaly Detection)</li>
+        <li>spaCy (NLP)</li>
+      </ul>
+      <h3>📊 Data & Visualization</h3>
+      <ul>
+        <li>pandas, NumPy</li>
+        <li>Matplotlib, Seaborn</li>
+      </ul>
+      <h3>⚙️ MLOps & CI/CD</h3>
+      <ul>
+        <li>Docker, Docker Compose</li>
+        <li>MLflow, DVC, BentoML</li>
+        <li>Git & GitHub Actions</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <h3>☁️ Cloud & Databases</h3>
+      <ul>
+        <li>AWS (EC2, ECR, S3, Beanstalk)</li>
+        <li>Azure</li>
+        <li>MongoDB Atlas, MySQL, SQLite</li>
+      </tr>
+      <h3>🔌 Backend & Web</h3>
+      <ul>
+        <li>Java 17, Spring Boot, Spring Security</li>
+        <li>Flask, Streamlit</li>
+        <li>REST API, Swagger (OpenAPI)</li>
+      </ul>
+      <h3>🛠️ Monitoring & Tools</h3>
+      <ul>
+        <li>Zabbix</li>
+        <li>Linux, Bash scripting</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 💼 Experience
+
+- **AI Trainer / QA Controller** @ Invisible Technologies (Remote, USA) — *Oct 2025 - Present*
+  - QA and root-cause analysis on large-scale AI datasets; detected anomalies and data-integrity issues.
+  - Defined correct system behavior with cross-functional teams, translating ambiguous requirements into verifiable accuracy criteria.
+- **Backend Developer (Java)** @ F5C Industrie (Remote, Morocco) — *Sep 2024 - Dec 2024*
+  - Built an AI chatbot backend with Java 17 & Spring AI, integrating the OpenAI API.
+  - Reduced system latency by 30% via caching and payload optimization.
+- **Full-Stack Developer Intern** @ Wafa Assurance (Casablanca, Morocco) — *Jun 2024 - Sep 2024*
+  - Configured Zabbix monitoring and ran integration tests with Jetty for production stability.
+  - Developed an insurance simulation engine with Spring Boot and React.
+
+---
+
+## 🗣️ Languages
+- **Arabic / French:** Native
+- **English:** C2 (EF SET)
+- **Spanish:** B2 (SIEL)
+
+---
+<p align="center">
+  <i>Let's build something cool together! 🤝 Feel free to reach out at <a href="mailto:work@elbakrihatim.com">work@elbakrihatim.com</a>.</i>
+</p>
