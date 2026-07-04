@@ -1,280 +1,469 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Title & Meta -->
-    <title>Hatim EL BAKRI - Portfolio</title>
+    <title>Hatim EL BAKRI - Data Scientist &amp; MLOps Engineer</title>
     <meta
       name="description"
-      content="Portfolio of Hatim EL BAKRI, Full Stack Developer based in Granada, Spain."
+      content="Portfolio of Hatim EL BAKRI, Data Scientist and MLOps engineer building production AI systems."
     />
-
-    <!-- Style-->
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- Fonts -->
+    <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
-      rel="stylesheet"
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>"
     />
-
-    <!-- Font Awesome Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
   </head>
-
   <body>
-    <div class="portfolio">
-      <!-- Sidebar / Hero -->
-      <header class="hero">
-        <img
-          src="assets/images/001.JPG"
-          alt="Hatim EL BAKRI"
-          class="hero__image"
-        />
-        <h1 class="hero__title">Hatim EL BAKRI</h1>
-        <p class="hero__subtitle">Full Stack Developer</p>
-        <p class="hero__location">📍 Pamplona, Spain 🌍</p>
-        <p class="hero__tagline">
-          Building Innovative Solutions That Make a Difference
-        </p>
-        <div class="hero__socials">
-          <a href="https://github.com/elhatimbakri" target="_blank"
-            ><i class="fab fa-github fa-2x"></i
-          ></a>
-          <a href="https://linkedin.com/in/elhatimbakri" target="_blank"
-            ><i class="fab fa-linkedin fa-2x"></i
-          ></a>
-          <a href="mailto:elhatimbakri@gmail.com"
-            ><i class="fas fa-envelope fa-2x"></i
-          ></a>
-          <a href="tel:+34604200294"><i class="fas fa-phone fa-2x"></i></a>
-        </div>
-        <button class="btn btn--primary" onclick="scrollToSection('contact')">
-          Want to Work Together?
+    <!-- Cursor glow -->
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <!-- Floating particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <div class="nav__inner">
+        <a href="#" class="nav__logo">hatim<span>.</span>dev 🚀</a>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#skills">⚡ Skills</a></li>
+          <li><a href="#projects">🔬 Projects</a></li>
+          <li><a href="#experience">💼 Experience</a></li>
+          <li><a href="#education">🎓 Education</a></li>
+        </ul>
+        <a href="#contact" class="nav__cta">✉️ Contact</a>
+        <button
+          class="nav__toggle"
+          id="nav-toggle"
+          aria-label="Toggle navigation"
+        >
+          <span></span><span></span><span></span>
         </button>
-      </header>
+      </div>
+    </nav>
 
-      <!-- Main Content -->
-      <main class="content">
-        <!-- About -->
-        <section id="about" class="section">
-          <h2 class="section__title">About Me</h2>
-          <p class="about__text">
-            I'm a Full Stack Developer with hands-on experience in developing
-            web and mobile applications using technologies like Spring Boot,
-            Laravel, React, and Flutter.
-          </p>
-          <p class="about__text">
-            I’ve worked with startups and enterprise systems during internships,
-            where I developed secure REST APIs, full-stack prototypes, and
-            production-ready backend systems.
-          </p>
-          <p class="about__text">
-            I enjoy solving real-world problems with code, learning new
-            frameworks, and collaborating in agile teams to deliver clean,
-            efficient, and scalable software.
-          </p>
-        </section>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <!--<div class="hero__emoji" id="hero-emoji">🧠</div>-->
+      <h1 class="hero__title">
+        Hatim <span class="gradient-text">EL BAKRI</span>
+      </h1>
+      <p class="hero__role">
+        <span id="typed-text"></span><span class="typing-cursor"></span>
+      </p>
+      <div class="hero__info-pills">
+        <span class="hero__pill">📍 Pamplona, Spain</span>
+        <span class="hero__pill">⚡ Immediate availability</span>
+        <span class="hero__pill hero__pill--active">🟢 Open to work</span>
+      </div>
+      <p class="hero__sub">
+        Building and deploying AI-powered solutions 🚀 Deep learning, MLOps
+        pipelines, and cybersecurity, from notebooks to production 🔐
+      </p>
+      <!--<div class="hero__quick-tags">
+        <span class="hero__tag">🇲🇦 Arabic &amp; French native</span>
+        <span class="hero__tag">🇬🇧 English C2</span>
+        <span class="hero__tag">🇪🇸 Spanish B2</span>
+        <span class="hero__tag">🚗 Driving license A &amp; B</span>
+        <span class="hero__tag">⚡ Immediate availability</span>
+      </div>-->
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">🔬 View projects</a>
+        <a href="#contact" class="btn btn--ghost">👋 Say hello</a>
+      </div>
+      <!--<div class="hero__scroll-hint">
+        <span>👇</span>
+      </div>-->
+    </section>
 
-        <!-- Skills -->
-        <section class="section">
-          <h2 class="section__title">Skills</h2>
-          <div class="skills__category">
-            <h3 class="skills__title">Languages</h3>
-            <div class="skills__tags">
-              <span class="tag tag--blue">Java</span
-              ><span class="tag tag--blue">PHP</span
-              ><span class="tag tag--blue">Python</span
-              ><span class="tag tag--blue">JavaScript</span
-              ><span class="tag tag--blue">Dart</span>
-            </div>
+    <!-- JOURNEY PATH -->
+    <div class="journey-path container">
+      <!-- ===== NODE 1: SKILLS ===== -->
+      <div class="path-node" id="skills">
+        <div class="path-marker">⚡</div>
+        <div class="path-content reveal-left">
+          <div class="section-header">
+            <h2 class="section-header__title">Technical toolkit</h2>
+            <p class="section-header__sub">
+              Core skills powering every project, from data wrangling to cloud
+              deploy.
+            </p>
           </div>
-          <div class="skills__category">
-            <h3 class="skills__title">Frameworks</h3>
-            <div class="skills__tags">
-              <span class="tag tag--green">Spring Boot</span
-              ><span class="tag tag--green">Laravel</span
-              ><span class="tag tag--green">React</span
-              ><span class="tag tag--green">Angular</span
-              ><span class="tag tag--green">Flutter</span>
-            </div>
-          </div>
-          <div class="skills__category">
-            <h3 class="skills__title">Databases</h3>
-            <div class="skills__tags">
-              <span class="tag tag--yellow">MySQL</span
-              ><span class="tag tag--yellow">PostgreSQL</span
-              ><span class="tag tag--yellow">MongoDB</span>
-            </div>
-          </div>
-          <div class="skills__category">
-            <h3 class="skills__title">Tools</h3>
-            <div class="skills__tags">
-              <span class="tag tag--gray">Git</span
-              ><span class="tag tag--gray">Docker</span
-              ><span class="tag tag--gray">Swagger</span
-              ><span class="tag tag--gray">Jetty</span>
-            </div>
-          </div>
-        </section>
 
-        <!-- Experience -->
-        <section id="experience" class="section">
-          <h2 class="section__title">Experience</h2>
-          <article class="experience">
-            <h3 class="experience__position">Java Backend Developer</h3>
-            <p class="experience__company">F5C INDUSTRIE (Remote), Morocco</p>
-            <p class="experience__duration">Sep 2024 – Dec 2024</p>
-            <ul class="experience__list">
-              <li>
-                Built Spring Boot backend for an AI chatbot using OpenAI and
-                Spring AI
-              </li>
-              <li>
-                Integrated APIs with Angular frontend for live client deployment
-              </li>
-              <li>Enhanced performance by optimizing secure API responses</li>
-            </ul>
-          </article>
-          <article class="experience">
-            <h3 class="experience__position">Full-Stack Developer Intern</h3>
-            <p class="experience__company">WAFA ASSURANCE, Casablanca</p>
-            <p class="experience__duration">Jun 2024 – Sep 2024</p>
-            <ul class="experience__list">
-              <li>
-                Enhanced REST APIs for insurance simulation using Spring Boot
-              </li>
-              <li>
-                Developed full-stack demo system using ReactJS + Spring Boot
-              </li>
-              <li>Documented APIs using Swagger and tested with Jetty</li>
-            </ul>
-          </article>
-          <article class="experience">
-            <h3 class="experience__position">Web Development Intern</h3>
-            <p class="experience__company">COFI SARL, Casablanca</p>
-            <p class="experience__duration">Mar 2023 – Sep 2023</p>
-            <ul class="experience__list">
-              <li>Built Laravel web app for inventory and sales tracking</li>
-              <li>
-                Worked across lifecycle: UI design, backend dev, deployment
-              </li>
-              <li>Used Git version control and Agile tools</li>
-            </ul>
-          </article>
-        </section>
+          <div class="skill-cloud stagger">
+            <span class="skill-pill" data-category="ml">🧠 Python</span>
+            <span class="skill-pill" data-category="ml">🔥 PyTorch</span>
+            <span class="skill-pill" data-category="ml">📊 TensorFlow</span>
+            <span class="skill-pill" data-category="ml">🔍 scikit-learn</span>
+            <span class="skill-pill" data-category="ml">📈 pandas</span>
+            <span class="skill-pill" data-category="ml">🔢 NumPy</span>
+            <span class="skill-pill" data-category="ml">📉 Matplotlib</span>
+            <span class="skill-pill" data-category="ml">🎨 Seaborn</span>
+            <span class="skill-pill">🐳 Docker</span>
+            <span class="skill-pill">📦 MLflow</span>
+            <span class="skill-pill">🔄 DVC</span>
+            <span class="skill-pill">🍱 BentoML</span>
+            <span class="skill-pill">⚙️ GitHub Actions</span>
+            <span class="skill-pill" data-category="cloud">☁️ AWS</span>
+            <span class="skill-pill" data-category="cloud">🌐 Azure</span>
+            <span class="skill-pill" data-category="cloud">🍃 MongoDB</span>
+            <span class="skill-pill" data-category="cloud">🐬 MySQL</span>
+            <span class="skill-pill" data-category="web">☕ Java 17</span>
+            <span class="skill-pill" data-category="web">🌱 Spring Boot</span>
+            <span class="skill-pill" data-category="web">🌶️ Flask</span>
+            <span class="skill-pill" data-category="web">🔌 REST API</span>
+            <span class="skill-pill" data-category="web">📱 Streamlit</span>
+          </div>
+        </div>
+      </div>
 
-        <!-- Projects -->
-        <section id="projects" class="section">
-          <h2 class="section__title">Projects</h2>
-          <div class="projects">
-            <article class="project">
-              <h3 class="project__title">Taxi Service Management System</h3>
-              <p class="project__description">
-                A full stack app with Spring Boot and React for taxi booking,
-                payments, and location tracking.
-              </p>
-              <div class="project__tags">
-                <span class="tag tag--tech">Spring Boot</span>
-                <span class="tag tag--tech">React</span>
+      <!-- ===== NODE 2: PROJECTS ===== -->
+      <div class="path-node" id="projects">
+        <div class="path-marker">🔬</div>
+        <div class="path-content reveal-right" style="max-width: 100%">
+          <div class="section-header">
+            <h2 class="section-header__title">Latest projects</h2>
+            <p class="section-header__sub">
+              Applied ML work in MLOps, computer vision, and NLP.
+            </p>
+          </div>
+
+          <div class="projects-grid stagger">
+            <!-- Project 1 -->
+            <article class="project-card reveal-scale">
+              <div class="project-card__image">
+                <img
+                  src="assets/project-network.png"
+                  alt="MLOps dashboard with anomaly detection"
+                  width="600"
+                  height="400"
+                  loading="lazy"
+                />
               </div>
-              <div class="project__links">
-                <a
-                  href="https://github.com/elhatimbakri/taxi-service-app"
-                  target="_blank"
-                  class="project__link"
-                >
-                  <i class="fab fa-github"></i> GitHub
-                </a>
-                <a
-                  href="https://taxi-service-demo.vercel.app"
-                  target="_blank"
-                  class="project__link"
-                  style="margin-left: 1rem"
-                >
-                  <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
+              <div class="project-card__body">
+                <div class="project-card__emoji">🛡️</div>
+                <span class="project-card__type">MLOps Pipeline</span>
+                <h3 class="project-card__title">
+                  Network Security Anomaly Detection
+                </h3>
+                <p class="project-card__desc">
+                  Full MLOps pipeline: ETL, data validation, experiment tracking
+                  with MLflow, batch prediction, and automated deployment to
+                  AWS.
+                </p>
+                <div class="project-card__tech">
+                  <span class="tech-tag">MongoDB Atlas</span>
+                  <span class="tech-tag">MLflow</span>
+                  <span class="tech-tag">Docker</span>
+                  <span class="tech-tag">GitHub Actions</span>
+                  <span class="tech-tag">AWS</span>
+                </div>
               </div>
             </article>
-             <article class="project">
-              <h3 class="project__title">Taxi Service Management System</h3>
-              <p class="project__description">
-                A full stack app with Spring Boot and React for taxi booking,
-                payments, and location tracking.
-              </p>
-              <div class="project__tags">
-                <span class="tag tag--tech">Spring Boot</span>
-                <span class="tag tag--tech">React</span>
+
+            <!-- Project 2 -->
+            <article class="project-card reveal-scale">
+              <div class="project-card__image">
+                <img
+                  src="assets/project-eurosat.png"
+                  alt="Satellite imagery grid with classification"
+                  width="600"
+                  height="400"
+                  loading="lazy"
+                />
               </div>
-              <div class="project__links">
-                <a
-                  href="https://elhatimbakri.github.io/happyflight/"
-                  target="_blank"
-                  class="project__link"
-                >
-                  <i class="fab fa-github"></i> GitHub
-                </a>
-                <a
-                  href="https://taxi-service-demo.vercel.app"
-                  target="_blank"
-                  class="project__link"
-                  style="margin-left: 1rem"
-                >
-                  <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
+              <div class="project-card__body">
+                <div class="project-card__emoji">🛰️</div>
+                <span class="project-card__type">Computer Vision</span>
+                <h3 class="project-card__title">
+                  EuroSAT Satellite Classification
+                </h3>
+                <p class="project-card__desc">
+                  Custom CNNs vs. fine-tuned ResNet18 on multispectral satellite
+                  imagery. Evaluated augmentation and normalization strategies.
+                </p>
+                <div class="project-card__tech">
+                  <span class="tech-tag">PyTorch</span>
+                  <span class="tech-tag">CNN</span>
+                  <span class="tech-tag">ResNet18</span>
+                  <span class="tech-tag">Transfer Learning</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card reveal-scale">
+              <div class="project-card__image">
+                <img
+                  src="assets/project-translation.png"
+                  alt="Neural attention mechanism visualization"
+                  width="600"
+                  height="400"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-card__body">
+                <div class="project-card__emoji">🌍</div>
+                <span class="project-card__type">NLP</span>
+                <h3 class="project-card__title">
+                  French-English Neural Translation
+                </h3>
+                <p class="project-card__desc">
+                  Comparative study of NMT architectures: stacked LSTMs to
+                  Bi-GRU with Bahdanau attention. Deployed live on Streamlit.
+                </p>
+                <div class="project-card__tech">
+                  <span class="tech-tag">PyTorch</span>
+                  <span class="tech-tag">spaCy</span>
+                  <span class="tech-tag">Bi-GRU</span>
+                  <span class="tech-tag">Attention</span>
+                  <span class="tech-tag">Streamlit</span>
+                </div>
               </div>
             </article>
           </div>
-        </section>
+        </div>
+      </div>
 
-        <!-- Contact -->
-        <section id="contact" class="section">
-          <h2 class="section__title">Let's Connect</h2>
-          <p class="contact__text">
-            I'm always open to freelance work, part-time roles, and
-            collaboration opportunities. Feel free to reach out!
-          </p>
-          <div class="contact__action">
-            <a href="mailto:elhatimbakri@gmail.com" class="btn btn--primary"
-              >Get In Touch</a
+      <!-- ===== NODE 3: EXPERIENCE ===== -->
+      <div class="path-node" id="experience">
+        <div class="path-marker">💼</div>
+        <div class="path-content reveal-left">
+          <div class="section-header">
+            <h2 class="section-header__title">Experience</h2>
+            <p class="section-header__sub">
+              From AI training to full-stack engineering.
+            </p>
+          </div>
+
+          <div class="exp-cards stagger">
+            <div class="exp-card reveal">
+              <div class="exp-card__emoji">👁️</div>
+              <div>
+                <div class="exp-card__date">Oct 2025 - Present</div>
+                <h3 class="exp-card__role">AI Trainer / QA Controller</h3>
+                <div class="exp-card__company">
+                  Invisible Technologies - Remote (USA) 🇺🇸
+                </div>
+                <ul class="exp-card__bullets">
+                  <li>
+                    QA and root-cause analysis on large-scale AI datasets,
+                    detecting anomalies and tracing data-integrity issues
+                  </li>
+                  <li>
+                    Defined system behavior with cross-functional teams,
+                    translating requirements into accuracy criteria
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="exp-card reveal">
+              <div class="exp-card__emoji">🤖</div>
+              <div>
+                <div class="exp-card__date">Sep 2024 - Dec 2024</div>
+                <h3 class="exp-card__role">Backend Developer (Java)</h3>
+                <div class="exp-card__company">
+                  F5C Industrie - Remote (Morocco) 🇲🇦
+                </div>
+                <ul class="exp-card__bullets">
+                  <li>
+                    Built a production AI chatbot backend with Java 17 + Spring
+                    AI, integrating OpenAI API
+                  </li>
+                  <li>
+                    Reduced system latency by 30% via caching and payload
+                    optimization 🏎️
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="exp-card reveal">
+              <div class="exp-card__emoji">🏢</div>
+              <div>
+                <div class="exp-card__date">Jun 2024 - Sep 2024</div>
+                <h3 class="exp-card__role">
+                  Full-Stack Developer (Java/React)
+                </h3>
+                <div class="exp-card__company">
+                  Wafa Assurance - Casablanca, Morocco 🇲🇦
+                </div>
+                <ul class="exp-card__bullets">
+                  <li>
+                    Configured Zabbix monitoring and ran integration tests with
+                    Jetty for production stability
+                  </li>
+                  <li>
+                    Developed insurance simulation engine with Spring Boot +
+                    modular REST API
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== NODE 4: EDUCATION ===== -->
+      <div class="path-node" id="education">
+        <div class="path-marker">🎓</div>
+        <div class="path-content reveal-right">
+          <div class="section-header">
+            <h2 class="section-header__title">Education</h2>
+          </div>
+
+          <div class="edu-row stagger">
+            <div class="edu-card reveal">
+              <div class="edu-card__emoji">🇪🇸</div>
+              <h3 class="edu-card__degree">
+                Dual Master's in Computer Engineering and Cybersecurity
+              </h3>
+              <div class="edu-card__school">UPNA - Pamplona, Spain</div>
+              <div class="edu-card__meta">In progress ⏳</div>
+            </div>
+            <div class="edu-card reveal">
+              <div class="edu-card__emoji">🇫🇷</div>
+              <h3 class="edu-card__degree">
+                Bachelor's in Web and Mobile Development
+              </h3>
+              <div class="edu-card__school">ULCO - Dunkerque, France</div>
+              <div class="edu-card__meta">2024 ✅</div>
+            </div>
+          </div>
+
+          <div class="lang-row stagger" style="margin-top: 2rem">
+            <div class="lang-card reveal">
+              <div class="lang-card__emoji">🇲🇦</div>
+              <div class="lang-card__name">Arabic / French</div>
+              <div class="lang-card__level">Native</div>
+            </div>
+            <div class="lang-card reveal">
+              <div class="lang-card__emoji">🇬🇧</div>
+              <div class="lang-card__name">English</div>
+              <div class="lang-card__level">C2 (EF SET)</div>
+            </div>
+            <div class="lang-card reveal">
+              <div class="lang-card__emoji">🇪🇸</div>
+              <div class="lang-card__name">Spanish</div>
+              <div class="lang-card__level">B2 (SIEL)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== NODE 5: CONTACT ===== -->
+      <div class="path-node" id="contact">
+        <div class="path-marker">✉️</div>
+        <div class="path-content reveal-left" style="max-width: 100%">
+          <div class="section-header">
+            <h2 class="section-header__title">Let's connect</h2>
+            <p class="section-header__sub">
+              Available for Data Science roles. Let's build something cool
+              together 🤝
+            </p>
+          </div>
+
+          <div class="contact-wrap">
+            <div class="contact-info stagger">
+              <div class="contact-item reveal">
+                <div class="contact-item__emoji">📧</div>
+                <div>
+                  <div class="contact-item__label">Email</div>
+                  <div class="contact-item__value">
+                    <a href="mailto:work@elbakrihatim.com"
+                      >work@elbakrihatim.com</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="contact-item reveal">
+                <div class="contact-item__emoji">📱</div>
+                <div>
+                  <div class="contact-item__label">Phone</div>
+                  <div class="contact-item__value">(+34) 604 200 294</div>
+                </div>
+              </div>
+              <div class="contact-item reveal">
+                <div class="contact-item__emoji">📍</div>
+                <div>
+                  <div class="contact-item__label">Location</div>
+                  <div class="contact-item__value">Pamplona, Spain</div>
+                </div>
+              </div>
+              <div class="contact-item reveal">
+                <div class="contact-item__emoji">🌐</div>
+                <div>
+                  <div class="contact-item__label">Website</div>
+                  <div class="contact-item__value">
+                    <a
+                      href="https://elbakrihatim.com"
+                      target="_blank"
+                      rel="noopener"
+                      >elbakrihatim.com</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <form
+              class="contact-form reveal"
+              id="contact-form"
+              onsubmit="return handleSubmit(event);"
             >
+              <div class="form-group">
+                <label for="form-name">Your name</label>
+                <input
+                  type="text"
+                  id="form-name"
+                  name="name"
+                  required
+                  autocomplete="name"
+                  placeholder="Ada Lovelace 👩‍💻"
+                />
+              </div>
+              <div class="form-group">
+                <label for="form-email">Your email</label>
+                <input
+                  type="email"
+                  id="form-email"
+                  name="email"
+                  required
+                  autocomplete="email"
+                  placeholder="ada@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea
+                  id="form-message"
+                  name="message"
+                  required
+                  placeholder="Tell me about your project... 💡"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn--primary"
+                id="form-submit"
+                style="width: 100%; justify-content: center"
+              >
+                🚀 Send message
+              </button>
+            </form>
           </div>
-        </section>
-      </main>
+        </div>
+      </div>
     </div>
 
-    <!-- === SCRIPTS === -->
-    <script>
-      function scrollToSection(sectionId) {
-        document
-          .getElementById(sectionId)
-          .scrollIntoView({ behavior: "smooth" });
-      }
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__text">Made with ♥️ by Hatim EL BAKRI - 2026</p>
+      </div>
+    </footer>
 
-      document.addEventListener("DOMContentLoaded", function () {
-        document.body.style.opacity = "1";
-        const observer = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add("animate");
-              }
-            });
-          },
-          { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
-        );
-
-        document.querySelectorAll(".section").forEach((section) => {
-          observer.observe(section);
-        });
-      });
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
