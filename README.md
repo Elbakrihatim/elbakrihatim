@@ -56,14 +56,7 @@ I am a passionate **Data Scientist & MLOps Engineer** focused on building reliab
 * 🌍 **French-English Neural Translation (NLP)**: Multi-model evaluation comparing stacked LSTMs to bidirectional GRUs with Bahdanau attention. Implemented in a live interactive interface.  
   *PyTorch · spaCy · Attention Mechanism · Streamlit*
 
----
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=elhatimbakri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=060b18&title_color=34d399&text_color=94a3b8&icon_color=2dd4bf" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=elhatimbakri&theme=tokyonight&hide_border=true&background=060b18&ring=34d399&fire=2dd4bf&currStreakNum=94a3b8&sideLabels=94a3b8" alt="GitHub Streak Stats" width="48%" />
-</p>
 
 ---
 
@@ -71,6 +64,7 @@ I am a passionate **Data Scientist & MLOps Engineer** focused on building reliab
 * **Arabic & French:** Native
 * **English:** C2 (EF SET)
 * **Spanish:** B2 (SIEL)
+* **German:** A2 (Loading...)
 
 <p align="center">
   <i>Let's build something secure & scalable! 🤝 Reach out at <a href="mailto:work@elbakrihatim.com">work@elbakrihatim.com</a>.</i>
