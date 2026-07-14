@@ -1,4 +1,4 @@
-# <p align="center">👋 Hello World, I'm Hatim EL BAKRI!</p>
+N# <p align="center">👋 Hello World, I'm Hatim EL BAKRI!</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&duration=3000&pause=1000&color=34D399&center=true&vCenter=true&width=500&height=50&lines=Data+Scientist;MLOps+Engineer;Computer+Engineering+Student;Cybersecurity+Enthusiast" alt="Typing SVG" />
